@@ -2,5 +2,19 @@
     width: 100vw;
     height: 384px;
     display: flex;
-    
+
+    justify-content: space-between;
+    background-color: $color-yellow;
+    .single-column {
+        max-width: 334px;
+        margin-top: 47px;
+        text-align: center;
+        font-family: $font-base;
+        color: $color-brown;
+        .statistics {
+            font-size: 90px;
+            margin-bottom: 10px;
+        }
+        
+    }
 }
