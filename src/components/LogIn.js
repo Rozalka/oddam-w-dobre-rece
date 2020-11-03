@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Home3Columns() {
+function LogIn() {
     return (
         <div>
-            
+            <h1>Zaloguj się</h1>
         </div>
     )
 }
 
-export default Home3Columns
+export default LogIn

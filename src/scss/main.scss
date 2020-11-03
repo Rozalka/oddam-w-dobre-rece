@@ -4,4 +4,12 @@
 
 @import "settings/colors";
 
-@import "componentsSCSS/app.scss";
+@import "../app.scss";
+
+@import "../components/footer.scss";
+
+@import "../components/header.scss";
+
+@import "../components/homeMain.scss";
+
+@import "../components/columns.scss";

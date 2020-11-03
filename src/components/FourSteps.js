@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Home4Steps() {
+function FourSteps() {
     return (
         <div>
             
@@ -8,4 +8,4 @@ function Home4Steps() {
     )
 }
 
-export default Home4Steps
+export default FourSteps

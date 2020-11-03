@@ -1,22 +1,22 @@
 import React from 'react';
-import HomeHeader from './HomeHeader';
+import Header from './Header';
 import HomeMain from './HomeMain';
-import Home3Columns from './Home3Columns';
-import Home4Steps from './Home4Steps';
-import HomeAboutUs from './HomeAboutUs';
-import HomeWhoWeHelp from './HomeWhoWeHelp';
+import Columns from './Columns';
+import FourSteps from './FourSteps';
+import AboutUs from './AboutUs';
+import WhoWeHelp from './WhoWeHelp';
 import Contact from './Contact';
 import Footer from './Footer';
 
 function Home() {
     return (
         <div>
-            <HomeHeader></HomeHeader>
+            <Header></Header>
             <HomeMain></HomeMain>
-            <Home3Columns></Home3Columns>
-            <Home4Steps></Home4Steps>
-            <HomeAboutUs></HomeAboutUs>
-            <HomeWhoWeHelp></HomeWhoWeHelp>
+            <Columns></Columns>
+            <FourSteps></FourSteps>
+            <AboutUs></AboutUs>
+            <WhoWeHelp></WhoWeHelp>
             <Contact></Contact>
             <Footer></Footer>
                <h1>Hello home!</h1>
@@ -24,9 +24,7 @@ function Home() {
                     <h2>Fundations</h2>
                     <h2>Local</h2>
                     <h2>Organizations</h2>
-               </div>
-
-            
+               </div>   
         </div>
     )
 }

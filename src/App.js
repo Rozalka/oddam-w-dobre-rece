@@ -1,6 +1,6 @@
 import Home from './components/Home';
-import Local from './components/Local';
-import Organizations from './components/Organizations';
+import LogIn from './components/LogIn';
+import CreateAccount from './components/CreateAccount';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -10,8 +10,12 @@ function App() {
       <Router>
         <Switch>
         <Route path="/" exact component={Home}/>
-        <Route path="/logIn"/>
-        <Route path="/createAccount"/>
+        <Route path="/logIn">
+          <LogIn/>
+        </Route>
+        <Route path="/createAccount">
+          <CreateAccount/>
+        </Route>
         </Switch>
       </Router>
     </div>
