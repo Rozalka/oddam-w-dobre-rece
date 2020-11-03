@@ -1,20 +1,33 @@
 .three-columns {
-    width: 100vw;
+    // width: 100vw;
     height: 384px;
     display: flex;
-
+    padding: 0 163px;
     justify-content: space-between;
-    background-color: $color-yellow;
+    background: url('../asssets/3\ Columns\ Background.png');
     .single-column {
-        max-width: 334px;
+        width: 334px;
         margin-top: 47px;
         text-align: center;
         font-family: $font-base;
-        color: $color-brown;
         .statistics {
             font-size: 90px;
+            color: $color-brown;
             margin-bottom: 10px;
         }
-        
+        .statistic-header {
+            font-size: 18px;
+            letter-spacing: -0.36px;
+            color: $color-darkgrey;
+            text-transform: uppercase;
+            margin-bottom: 28px;
+        }
+        .statistic-details{
+            font-size: 16px;
+            line-height: 18px;
+            font-weight: 300;
+            letter-spacing: -0.32px;
+        }
+
     }
 }
