@@ -1,0 +1,69 @@
+.steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .steps-header {
+        margin-top: 55px;
+        text-align: center;
+        font-size: 38px;
+        font-family: $font-base;
+        letter-spacing: -0.76px;
+        color: $color-darkgrey;
+    }
+    .decor {
+        margin-top: 25px;
+        background: url("../asssets/Decoration.svg");
+        width: 253px;
+        height: 33px;
+        display: flex;
+    }
+    .simple-steps {
+        margin-top: 34px;
+        display: flex;
+        justify-content: space-between;
+        background-color: $color-dirty-white;
+        height: 325px;
+        width: 100%;
+        padding-top: 76px;
+        .single-box {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            max-width: 164px;
+            color: $color-darkgrey;
+            font-family: $font-base;
+            .icon {
+                width: 83px;
+                height: 83px;
+                margin-bottom: 10px;
+            }
+            .icon1 {
+                background-image: url('../asssets/Icon-1.svg');
+            }
+            .icon2 {
+                background-image: url('../asssets/Icon-2.svg');
+            }
+            .icon3 {
+                background-image: url('../asssets/Icon-3.svg');
+            }
+            .icon4 {
+                background-image: url('../asssets/Icon-4.svg');
+            }
+            .single-box-header {
+                h4 {
+                    font-size: 18px;
+                }
+                ::after{
+                    content: "";
+                    width: 70px;
+                    height: 0.5px;
+                    display: block;
+                    margin-top: 10.5px;
+                    background-color: $color-darkgrey;
+                }
+            }
+
+        }
+    }
+}
