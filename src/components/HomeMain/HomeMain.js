@@ -1,5 +1,4 @@
 import React from 'react';
-import homeHero from '../asssets/Home-Hero-Image.jpg';
 
 function HomeMain() {
     return (

@@ -1,11 +1,13 @@
 .container-main {
     display: flex;
     max-height: 963px;
+
     .img1 {
-        background: url('../asssets//Home-Hero-Image.jpg');
+        background: url('../../assets/Home-Hero-Image.jpg');
         position: relative;
         flex-grow: 1;
     }
+
     .main-info {
         margin-top: 210px;
         flex-grow: 1;
@@ -17,6 +19,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+
             h2 {
                 padding: 4px 0;
                 font-size: 38px;
@@ -24,17 +27,20 @@
                 color: $color-darkgrey;
                 text-align: center;
             }
+
             .decor {
                 margin-top: 25px;
-                background: url("../asssets/Decoration.svg");
+                background: url("../../assets/Decoration.svg");
                 width: 253px;
                 height: 33px;
             }
         }
+
         .main-info-btns {
             margin-top: 65px;
             display: flex;
             padding-bottom: 271px;
+            
             button {
                 width: 310px;
                 height: 120px;

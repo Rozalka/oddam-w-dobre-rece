@@ -1,17 +1,9 @@
 @import "generic/reset";
-
 @import "settings/fonts";
-
 @import "settings/colors";
-
 @import "../app.scss";
-
-@import "../components/footer.scss";
-
-@import "../components/header.scss";
-
-@import "../components/homeMain.scss";
-
-@import "../components/columns.scss";
-
-@import "../components/fourSteps.scss";
+@import "../components/Footer/footer.scss";
+@import "../components/Header/header.scss";
+@import "../components/HomeMain/homeMain.scss";
+@import "../components/Columns/columns.scss";
+@import "../components/FourSteps/fourSteps.scss";

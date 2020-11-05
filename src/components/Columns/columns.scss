@@ -1,33 +1,35 @@
 .three-columns {
-    // width: 100vw;
     height: 384px;
     display: flex;
     padding: 0 163px;
     justify-content: space-between;
-    background: url('../asssets/3\ Columns\ Background.png');
+    background: url('../../assets/3 Columns Background.png');
+
     .single-column {
         width: 334px;
         margin-top: 47px;
         text-align: center;
-        font-family: $font-base;
+        font-family: 'Open Sans',  sans-serif;
+
         .statistics {
             font-size: 90px;
-            color: $color-brown;
+            color: #5E5322;
             margin-bottom: 10px;
         }
+
         .statistic-header {
             font-size: 18px;
             letter-spacing: -0.36px;
-            color: $color-darkgrey;
+            color: #3C3C3C;
             text-transform: uppercase;
             margin-bottom: 28px;
         }
+
         .statistic-details{
             font-size: 16px;
             line-height: 18px;
             font-weight: 300;
             letter-spacing: -0.32px;
         }
-
     }
 }
