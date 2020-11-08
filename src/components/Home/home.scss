@@ -1,0 +1,9 @@
+.home-screen {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: url("../../assets/Home-Hero-Image.jpg") no-repeat -400px;
+    background-size: contain;
+  }

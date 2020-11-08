@@ -1,12 +1,7 @@
 .container-main {
     display: flex;
     max-height: 963px;
-
-    .img1 {
-        background: url('../../assets/Home-Hero-Image.jpg');
-        position: relative;
-        flex-grow: 1;
-    }
+    margin-right: 56px;
 
     .main-info {
         margin-top: 210px;
@@ -27,13 +22,13 @@
                 color: $color-darkgrey;
                 text-align: center;
             }
+        }
 
-            .decor {
-                margin-top: 25px;
-                background: url("../../assets/Decoration.svg");
-                width: 253px;
-                height: 33px;
-            }
+        .decor {
+            margin-top: 25px;
+            background: url("../../assets/Decoration.svg");
+            width: 253px;
+            height: 33px;
         }
 
         .main-info-btns {

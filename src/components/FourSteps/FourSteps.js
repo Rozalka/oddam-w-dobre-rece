@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import '../FourSteps/fourSteps.scss';
 
 function FourSteps() {
     return (
@@ -15,9 +16,7 @@ function FourSteps() {
                 </div>
                 <div className="single-box">
                     <div className="icon icon2"></div>
-                    <div className="single-box-header">
-                        <h4>Spakuj je</h4>
-                    </div>
+                    <h4 className="single-box-header">Spakuj je</h4>
                     <p>skorzystaj z worków na śmieci</p>
                 </div>
                 <div className="single-box">
@@ -34,7 +33,9 @@ function FourSteps() {
                     </div>
                     <p>kurier przyjedzie w dogodnym terminie</p>
                 </div>
-
+            </div>
+            <div className="four-footer">
+                <button className="four-button">ODDAJ RZECZY</button>
             </div>
         </section>
     )

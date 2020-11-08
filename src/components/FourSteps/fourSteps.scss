@@ -1,3 +1,6 @@
+@import '../../scss/settings/colors';
+@import '../../scss/settings/fonts';
+
 .steps {
     display: flex;
     flex-direction: column;
@@ -21,22 +24,24 @@
     }
 
     .simple-steps {
-        margin-top: 34px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         background-color: $color-dirty-white;
         height: 325px;
         width: 100%;
-        padding-top: 76px;
+        margin-top: 39px;
 
         .single-box {
             display: flex;
-            align-items: center;
             flex-direction: column;
-            text-align: center;
-            max-width: 164px;
+            align-items: center;
+            justify-content: space-between;
+            width: 164px;
+            height: 190px;
             color: $color-darkgrey;
             font-family: $font-base;
+            text-align: center;
 
             .icon {
                 width: 83px;
@@ -61,20 +66,44 @@
             }
 
             .single-box-header {
+                text-align: center;
+                font-size: 18px;
+                position: relative;
+                bottom: 10px;
+            }
 
-                h4 {
-                    font-size: 18px;
-                }
-
-                ::after{
-                    content: "";
-                    width: 70px;
-                    height: 0.5px;
-                    display: block;
-                    margin-top: 10.5px;
-                    background-color: $color-darkgrey;
-                }
+            h4::before{
+                content: "";
+                position: absolute;
+                width: 70px;
+                height: 0.5px;
+                bottom: -20px;
+                background-color: $color-darkgrey;
             }
         }
     }
+
+    .four-footer {
+        height: 25vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+    
+        .four-button {
+          padding: 0 50px;
+          border: 0.75px solid $color-darkgrey;
+          margin: 5px;
+          width: 310px;
+          height: 120px;
+          font-size: 36px;
+          color: $color-darkgrey;
+          background: none;
+          outline: none;
+        }
+    
+        .four-button:hover {
+          cursor: pointer;
+        }    
+    }    
 }
