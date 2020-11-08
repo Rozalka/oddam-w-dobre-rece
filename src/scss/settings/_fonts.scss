@@ -3,3 +3,11 @@
 
 $font-base: 'Open Sans',  sans-serif;
 $font-alt: 'Merriweather', serif;
+
+.decor {
+    margin-top: 30px;
+    background: url("../../assets/Decoration.svg");
+    width: 253px;
+    height: 33px;
+    display: flex;
+}
