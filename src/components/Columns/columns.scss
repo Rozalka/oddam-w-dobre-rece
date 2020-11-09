@@ -1,3 +1,6 @@
+@import '../../scss/settings/colors';
+@import '../../scss/settings/fonts';
+
 .three-columns {
     height: 384px;
     display: flex;
@@ -9,18 +12,18 @@
         width: 334px;
         margin-top: 47px;
         text-align: center;
-        font-family: 'Open Sans',  sans-serif;
+        font-family: $font-base;
 
         .statistics {
             font-size: 90px;
-            color: #5E5322;
+            color: $color-brown;
             margin-bottom: 10px;
         }
 
         .statistic-header {
             font-size: 18px;
             letter-spacing: -0.36px;
-            color: #3C3C3C;
+            color: $color-darkgrey;
             text-transform: uppercase;
             margin-bottom: 28px;
         }
