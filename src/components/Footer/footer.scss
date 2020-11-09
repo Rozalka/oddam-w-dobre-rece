@@ -1,3 +1,35 @@
+@import '../../scss/settings/colors';
+@import '../../scss/settings/fonts';
+
 .footer {
-    color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+
+    .footer-rights {
+        font: 18px;
+        align-self: flex-end;
+    }
+    
+    .footer-icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .footer-icon {
+            width: 30px;
+            height: 30px;
+        }
+
+        .footer-icon-facebook {
+            background: url('../../assets/Facebook.svg') no-repeat;
+            padding-right: 20px;
+        }
+
+        .footer-icon-insta {
+            background: url('../../assets/Instagram.svg') no-repeat;
+            padding-right: 100px;
+        }
+    }
 }

@@ -1,0 +1,24 @@
+@import '../../scss/settings/colors';
+@import '../../scss/settings/fonts';
+
+.main-decor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .main-decor-text {
+      font-weight: 400;
+      margin-bottom: 40px;
+      max-width: 500px;
+      padding: 4px 0;
+      font-size: 38px;
+      font-family: $font-base;
+      color: $color-darkgrey;
+      text-align: center;
+    }
+    .main-decor-icon {
+      width: 253px;
+      height: 30px;
+      background: url("../../assets/Decoration.svg") no-repeat;
+    }
+  }
