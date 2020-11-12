@@ -3,7 +3,7 @@ import '../AboutUs/aboutUs.scss';
 
 function AboutUs() {
     return (
-        <section className="about-us">
+        <section className="about-us" id="team">
             <div className="about-us-text">
                 <h2 className="about-us-title">O nas</h2>
                 <div className="decor"></div>

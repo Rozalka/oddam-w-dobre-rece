@@ -3,7 +3,7 @@ import '../FourSteps/fourSteps.scss';
 
 function FourSteps() {
     return (
-        <section className="steps">
+        <section className="steps" id="about">
             <h2 className="steps-header">Wystarczą 4 proste kroki</h2>
             <div className="decor"></div>
             <div className="simple-steps">

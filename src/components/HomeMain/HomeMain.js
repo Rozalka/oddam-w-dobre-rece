@@ -3,7 +3,7 @@ import '../HomeMain/homeMain.scss'
 
 function HomeMain() {
     return (
-        <section className="container-main">
+        <section className="container-main" id="start">
             <div className="main-info">
                 <div className="main-info-header">
                     <h2>Zacznij pomagać!</h2>

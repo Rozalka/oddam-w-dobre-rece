@@ -50,12 +50,48 @@
     .who-help-list {
         height: 350px;
         width: 1200px;
-        border: 1px solid $color-darkgrey;
+        
+        .who-help-list-elem {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .who-help-option {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;border-bottom: 0.75px solid $color-darkgrey;
+                padding-bottom: 31px;
+
+                .option-details {
+                    .option-name
+                    .option-info {
+                        font-weight: 300;
+                        color: $color-darkgrey;
+                    }
+                    
+                    .option-name {
+                        font-size: 26px;
+                    }
+
+                    .option-info,
+                    .option-tags {
+                        font-size: 18px;
+                    }
+                }
+
+            }
+
+            .who-help-option:last-child {
+                border-bottom: none;
+            }
+        }
     }
 
     .who-help-pagination {
         height: 50px;
         width: 150px;
-        border: 1px solid $color-darkgrey;
+        border: 0.75px solid $color-darkgrey;
     }   
 }
