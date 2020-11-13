@@ -1,5 +1,5 @@
 import Home from './components/Home/Home';
-import LogIn from './components/LogIn';
+import LogIn from './components/LogIn/LogIn';
 import CreateAccount from './components/CreateAccount/CreateAccount';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 

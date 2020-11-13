@@ -1,0 +1,39 @@
+@import '../../scss/settings/colors';
+@import '../../scss/settings/fonts';
+
+.form-box {
+    height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .form-to-log {
+        width: 504px;
+        height: 325px;
+        margin-top: 60px;
+        padding-top: 0;
+            
+        .form-details {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            background: $color-dirty-white;
+            width: 384px;
+            height: 235px;
+            margin-left: 59px;
+
+            input {
+                border: none;
+                background: $color-dirty-white;
+                border-bottom: 0.75px solid $color-darkgrey;
+                margin: 0 67px;
+            }
+        }
+    }
+
+    .form-btns {
+        display: flex;
+        justify-content: space-between;
+    }
+}

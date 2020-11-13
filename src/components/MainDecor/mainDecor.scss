@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    .main-decor-text {
+    .main-decor-title {
       font-weight: 400;
       margin-bottom: 40px;
       max-width: 500px;
@@ -20,5 +20,6 @@
       width: 253px;
       height: 30px;
       background: url("../../assets/Decoration.svg") no-repeat;
+      padding-bottom: 30px;
     }
   }
