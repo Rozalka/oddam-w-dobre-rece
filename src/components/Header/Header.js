@@ -1,18 +1,21 @@
 import React from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import {  Link } from 'react-router-dom';
 import {Link as Scroll} from 'react-scroll';
+import '../Header/header.scss'
 
 function Header() {
     return (
         <section>
-            <Router>
                 <nav className="top-menu">
                     <ul className="navigation nav-top-row">
-                        <Link to={"/logIn"}>
+                        <Link to="/logIn">
                             <li>Zaloguj</li>
                         </Link>
-                        <Link to={"/createAccount"}>
+                        <Link to="/createAccount">
                                 <li>Załóż konto</li>
+                        </Link>
+                        <Link to="/logOut">
+                            <li>Wyloguj</li>
                         </Link>  
                     </ul>
                     <ul className="navigation nav-second-row">
@@ -33,7 +36,6 @@ function Header() {
                         </li>                       
                     </ul>
                 </nav>
-            </Router>
         </section>
     )
 }

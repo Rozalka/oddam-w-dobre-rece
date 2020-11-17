@@ -7,6 +7,7 @@ import '../MainDecor/mainDecor.scss';
 import '../LogInForm/logInForm.scss';
 
 function LogIn() {
+    
     return (
         <>
         <Header/>

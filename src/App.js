@@ -2,6 +2,7 @@ import Home from './components/Home/Home';
 import LogIn from './components/LogIn/LogIn';
 import CreateAccount from './components/CreateAccount/CreateAccount';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import LogOut from './components/LogOut/LogOut';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         </Route>
         <Route path="/createAccount">
           <CreateAccount/>
+        </Route>
+        <Route path="/logOut">
+          <LogOut/>
         </Route>
         </Switch>
       </Router>

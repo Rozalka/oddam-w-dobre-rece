@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
+import Header from '../Header/Header';
+import MainDecor from '../MainDecor/MainDecor';
+import CreateAccountForm from '../CreateAccountForm/CreateAccountForm';
+import '../LogInForm/logInForm.scss';
 
 function CreateAccount() {
     return (
         <>
-            <h1>stwórz konto</h1>
+           <Header/>
+           <div className="form-box">
+            <MainDecor title={"Załóż konto"}/>
+            <CreateAccountForm/>
+        </div>
         </>
     )
 }
