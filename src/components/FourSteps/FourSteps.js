@@ -9,28 +9,24 @@ function FourSteps() {
             <div className="simple-steps">
                 <div className="single-box">
                     <div className="icon icon1"></div>
-                    <div className="single-box-header">
-                        <h4>Wybierz rzeczy</h4>
-                    </div>
+                    <h4 className="single-box-header">Wybierz rzeczy</h4>
+                    <div className="box-decor"></div>
                     <p>ubrania, zabawki, sprzęt i inne</p>
                 </div>
                 <div className="single-box">
                     <div className="icon icon2"></div>
                     <h4 className="single-box-header">Spakuj je</h4>
+                    <div className="box-decor"></div>
                     <p>skorzystaj z worków na śmieci</p>
                 </div>
                 <div className="single-box">
-                    <div className="icon icon3"></div>
-                    <div className="single-box-header">
-                        <h4>Zdecyduj komu chcesz pomóc</h4>
-                    </div>
+                    <div className="icon icon3"></div><h4 className="single-box-header">Zdecyduj komu chcesz pomóc</h4>
+                    <div className="box-decor"></div>
                     <p>wybierz zaufane miejsce</p>
                 </div>
                 <div className="single-box">
-                    <div className="icon icon4"></div>
-                    <div className="single-box-header">
-                        <h4>Zamów kuriera</h4>
-                    </div>
+                    <div className="icon icon4"></div><h4 className="single-box-header">Zamów kuriera</h4>
+                    <div className="box-decor"></div>
                     <p>kurier przyjedzie w dogodnym terminie</p>
                 </div>
             </div>

@@ -17,7 +17,7 @@
 
     .simple-steps {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         background-color: $color-dirty-white;
         height: 325px;
@@ -34,6 +34,7 @@
             color: $color-darkgrey;
             font-family: $font-base;
             text-align: center;
+            margin: 0 70px;
 
             .icon {
                 width: 83px;
@@ -61,15 +62,14 @@
                 text-align: center;
                 font-size: 18px;
                 position: relative;
-                bottom: 10px;
+                margin: 10px 0;
             }
 
-            h4::before{
-                content: "";
-                position: absolute;
+            .box-decor {
+                display:block;
                 width: 70px;
                 height: 0.5px;
-                bottom: -20px;
+                margin: 10px 0;
                 background-color: $color-darkgrey;
             }
         }

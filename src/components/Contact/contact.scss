@@ -75,6 +75,12 @@
             border: none;
             border-bottom: 0.75px solid $color-darkgrey;
         }
+        .error {
+            padding-top: 20px;
+            margin-left: 67px;
+            font-size: 16px;
+            color: red;
+        }
     }
 
     .contact-form-btn {

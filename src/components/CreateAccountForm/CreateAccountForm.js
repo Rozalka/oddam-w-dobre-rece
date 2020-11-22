@@ -1,10 +1,8 @@
-import React, {useState} from 'react';
+import React from 'react';
 import '../CreateAccountForm/createAccountForm.scss';
 import '../LogInForm/logInForm.scss';
 
 function CreateAccountForm() {
-
-
 
     return (
         <div>

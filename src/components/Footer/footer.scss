@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 5px;
+    margin-left: 40%;
 
     .footer-rights {
         font: 18px;
@@ -20,16 +21,12 @@
         .footer-icon {
             width: 30px;
             height: 30px;
+            padding: 0 10px;
         }
-
-        .footer-icon-facebook {
-            background: url('../../assets/Facebook.svg') no-repeat;
-            padding-right: 20px;
-        }
-
-        .footer-icon-insta {
-            background: url('../../assets/Instagram.svg') no-repeat;
-            padding-right: 100px;
+        
+        a {
+            text-decoration: none;
+            outline: none;
         }
     }
 }

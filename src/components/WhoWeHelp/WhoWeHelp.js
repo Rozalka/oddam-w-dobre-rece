@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import '../WhoWeHelp/whoWeHelp.scss';
-import Pagination from '../Pagination/Pagination';
+// import Pagination from '../Pagination/Pagination';
 
 function WhoWeHelp() {
 
@@ -47,7 +47,7 @@ function WhoWeHelp() {
         ]
     };
 
-    const locals ={
+    const locals = {
         id: 2,
         details:[
             {
