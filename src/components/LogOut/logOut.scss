@@ -1,0 +1,17 @@
+@import "../../scss/settings/colors";
+@import "../../scss/settings/fonts";
+
+.log-out-box {
+  margin-top: 223px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .log-out-btn {
+    width: 150px;
+    height: 50px;
+    border: 0.75px solid $color-darkgrey;
+    background: none;
+  }
+}

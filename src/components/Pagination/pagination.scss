@@ -1,0 +1,21 @@
+@import "../../scss/settings/colors";
+@import "../../scss/settings/fonts";
+
+.pagination {
+  display: flex;
+
+  .page-item {
+    padding: 3px;
+    margin: 2px;
+  }
+
+  .pagination-btn {
+    border: none;
+    padding: 5px 4px;
+    background: none;
+  }
+
+  .pagination-btn:hover {
+    border: 0.75px solid $color-darkgrey;
+  }
+}

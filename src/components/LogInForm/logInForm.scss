@@ -1,79 +1,79 @@
-@import '../../scss/settings/colors';
-@import '../../scss/settings/fonts';
+@import "../../scss/settings/colors";
+@import "../../scss/settings/fonts";
 
 .form-box {
-    height: calc(100vh - 123px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: calc(100vh - 123px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    .form-to-log {
-        width: 504px;
-        height: 325px;
-        margin-top: 40px;
-        padding-top: 0;
-            
-        .form-details {
-            display: flex;
-            justify-content: space-around;
-            flex-direction: column;
-            background: $color-dirty-white;
-            width: 384px;
-            height: 235px;
-            margin-left: 59px;
-            padding-bottom: 40px;
+  .form-to-log {
+    width: 504px;
+    height: 325px;
+    margin-top: 40px;
+    padding-top: 0;
 
-            input {
-                border: none;
-                background: $color-dirty-white;
-                border-bottom: 0.75px solid $color-darkgrey;
-                margin: 0 67px;
-            }
+    .form-details {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      background: $color-dirty-white;
+      width: 384px;
+      height: 235px;
+      margin-left: 59px;
+      padding-bottom: 40px;
 
-            label {
-                margin-left: 67px;
-                padding-top: 40px;
-            }
-        }
+      input {
+        border: none;
+        background: $color-dirty-white;
+        border-bottom: 0.75px solid $color-darkgrey;
+        margin: 0 67px;
+      }
 
-        .new-account {
-            height: 328px;
-        }
-
-
-    }
-
-    .form-btns {
-        display: flex;
-        justify-content: space-between;
-        background: none;
-        padding-top: 30px;
-       
-
-        button {
-            background: none;
-            width: 117px;
-            height: 50px;
-            font-size: 18px;
-            border:none;
-        }
-
-        .active-btn {
-            border:  0.75px solid $color-darkgrey;
-        }
-    }
-    
-    .error {
-        padding-top: 20px;
+      label {
         margin-left: 67px;
-        font-size: 16px;
-        color: red;
+        padding-top: 40px;
+      }
     }
 
-    .log-confirmation {
-        padding-top: 60px;
-        font-size: 18px;
-        color:green;
+    .new-account {
+      height: 328px;
     }
+  }
+
+  .form-btns {
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    padding-top: 30px;
+
+    button {
+      background: none;
+      width: 117px;
+      height: 50px;
+      font-size: 18px;
+      border: none;
+    }
+
+    .active-btn {
+      border: 0.75px solid $color-darkgrey;
+    }
+  }
+
+  .error {
+    padding-top: 20px;
+    margin-left: 67px;
+    font-size: 16px;
+    color: red;
+  }
+
+  .log-confirmation {
+    padding-top: 60px;
+    font-size: 18px;
+    color: green;
+  }
+}
+
+.form-box-create-account {
+  margin-top: 60px;
 }

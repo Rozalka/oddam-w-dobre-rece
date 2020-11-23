@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../WhoWeHelp/whoWeHelp.scss";
-// import Pagination from '../Pagination/Pagination';
+import Pagination from "../Pagination/Pagination";
 
 function WhoWeHelp() {
   const foundations = {
@@ -24,18 +24,18 @@ function WhoWeHelp() {
         tags: "ubrania, jedzenie, ciepłe koce",
       },
       {
-        name: "Fundacja “Dbam o Zdrowie”",
+        name: "Fundacja “Dbam o Zdrowie 2”",
         info:
           "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
         tags: "ubrania, jedzenie, sprzęt AGD, meble, zabawki",
       },
       {
-        name: "Fundacja “Dla dzieci”",
+        name: "Fundacja “Dla dzieci 2”",
         info: "Cel i misja: Pomoc dzieciom z ubogich rodzin.",
         tags: "ubrania, jedzenie, zabawki",
       },
       {
-        name: "Fundacja “Bez domu”",
+        name: "Fundacja “Bez domu 2”",
         info:
           "Cel i misja: Pomoc dla osób nieposiadających miejsca zamieszkania.",
         tags: "ubrania, jedzenie, ciepłe koce",
@@ -92,6 +92,20 @@ function WhoWeHelp() {
     setChosenOption(e.target.id);
   };
 
+  const paginateOptions = options[chosenOption].details;
+  console.log(paginateOptions);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [infoPerPage] = useState(3);
+
+  //get current infos
+  const indexOfLastInfo = currentPage * infoPerPage;
+  const indexOfFirstInfo = indexOfLastInfo - infoPerPage;
+  const currentInfo = paginateOptions.slice(indexOfFirstInfo, indexOfLastInfo);
+  console.log(currentInfo);
+
+  //change page
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
   return (
     <section className="who-help" id="foundation">
       <h2 className="who-help-title">Komu pomagamy?</h2>
@@ -114,7 +128,7 @@ function WhoWeHelp() {
       </div>
       <div className="who-help-list">
         <ul className="who-help-list-elem">
-          {options[chosenOption].details.map((e) => (
+          {currentInfo.map((e) => (
             <li className="who-help-option">
               <div className="option-details">
                 <h3 className="option-name">{e.name}</h3>
@@ -125,7 +139,13 @@ function WhoWeHelp() {
           ))}
         </ul>
       </div>
-      <div className="who-help-pagination"></div>
+      <div className="who-help-pagination">
+        <Pagination
+          infoPerPage={infoPerPage}
+          totalInfos={paginateOptions.length}
+          paginate={paginate}
+        />
+      </div>
     </section>
   );
 }
